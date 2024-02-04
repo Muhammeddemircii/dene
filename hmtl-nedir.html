@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilgi Klavyesi - HTML nedir?</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</head>
+<body>
+     <div class="header">
+        <img src="Images/Bilgi-klavyesi-logo-PhotoRoom.png" class="img-fluid col-xxxl" alt="">
+        <h1 class="display-1 col-md-7">BİLGİ KLAVYESİ</h1>
+        <div class="search">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+    </div>
+    <div id="side-bar-into" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="index.html">Ana Sayfa</a>
+      <a href="yazilim.html">Yazılım</a>
+      <a href="kitap.html">Kitap</a>
+      <a href="filmdizi.html">Film/Dizi</a>
+    </div>
+    <div id="side-bar">
+      <button id="openbtn" onclick="openNav()">☰</button>
+    </div>
+    <div class="flex">
+      <div class="main">
+        <h2>HTML nedir?</h2>
+        <p>Hiper Metin İşaretleme Dili (HTML, İngilizce HyperText Markup Language kelimelerinin baş harflerinin kısaltılmasıdır. HTML, bir programlama dili olarak tanımlanamaz. Zira HTML kodlarıyla kendi başına çalışan bir program yazılamaz. Ancak bu dili yorumlayabilen programlar aracılığıyla çalışabilen programlar yazılabilir. Programlama dili denilememesinin nedeni tam olarak budur. Temel gereği yazı, görüntü, video gibi değişik verileri ve bunları içeren sayfaları birbirine basitçe bağlamak, buna ek olarak söz konusu sayfaların web tarayıcısı yazılımları tarafından düzgün olarak görüntülenmesi için gerekli kuralları belirlemektir.</p>
+        <img src="Images/HTML Nedir-1.png" class="img-fluid" alt="">
+        <p>Temel kod dizimi yukarıdaki gibidir. HTML ile düz sabit bir web site oluşturabiliriz. Görsellik katabilmek için css öğrenmeliyiz. Bir sonraki derste Html ile başlık yazma konusunu öğreneceğiz. Haydi gelin.</p>
+        <a href="htmlbaslik.html"><button class="before">Önceki</button></a> 
+        <a href="htmlbaslik.html"><button class="after">Sonraki</button></a> 
+      </div>
+      <!--Buraya reklam gelecek-->
+    </div>
+    <div class="footer">
+      <p>Linkedin</p>
+      <p>GitHub</p>
+      <p>Instagram</p>
+      <hr>
+      <h4>Copyright © 2024 Muhammed Demirci Tüm hakları saklıdır</h4>
+  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
