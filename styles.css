@@ -6,7 +6,7 @@ h1{
   text-align: center;
 }
 h2{
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif
 }
 @font-face{
   font-family: 'ProtestRevolution';
@@ -194,7 +194,6 @@ margin-top: 35px;
 }
 .demo>img{
   width: 360px;
-  height: 100%;
 }
 .demo h2{
   padding-left: 35px;
@@ -309,7 +308,7 @@ margin-top: 35px;
   margin: 0 20%;
 }
 .main p{
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: 'Times New Roman', Times, serif;
 }
 #space{
@@ -365,4 +364,20 @@ margin-top: 35px;
   .intro-text>h1{
     font-size: 2rem;
   }
+}
+
+.flex{
+  height: 215px;
+  margin: 5% 15%; /*reklam gelince değer değişecek*/
+  overflow: hidden;
+}
+.img>img{
+  width: 250px;
+
+}
+.flex h2{
+  margin-left: 35px;
+}
+.flex p{
+  margin-left: 15px;
 }
