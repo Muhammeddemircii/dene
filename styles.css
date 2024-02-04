@@ -309,7 +309,11 @@ margin-top: 35px;
   margin-top: 2.5rem;
 }
 .main>img{
-  width: 100%;
+  width: 500px;
+  height: 325px;
+}
+.flex{
+  display: flex;
 }
 
 /*responsive*/
