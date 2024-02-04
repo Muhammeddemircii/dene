@@ -183,25 +183,6 @@ h2{
 .content h2{
 margin-top: 35px;
 }
-
-.demo{
-  width: 70%;
-  height: 250px;
-  object-fit: cover;
-  overflow: hidden;
-  margin: 25px 0 0 100px;
-  display: flex;
-}
-.demo>img{
-  width: 360px;
-}
-.demo h2{
-  padding-left: 35px;
-}
-.demo p{
-  padding-left: 15px;
-
-}
 /*footer*/
 .footer{
   background-color:  #b0f0f2 ;
@@ -220,6 +201,7 @@ margin-top: 35px;
   background-image: url(Images/yazilim.html.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 100vh;
 }
 .intro-text{
@@ -239,9 +221,21 @@ margin-top: 35px;
 }
 
 
-.flex{
+.flex-container{
+  height: 215px;
+  margin: 5% 15%; /*reklam gelince değer değişecek*/
+  overflow: hidden;
   display: flex;
+}
+.img>img{
+  width: 250px;
 
+}
+.flex-container h2{
+  margin-left: 35px;
+}
+.flex-container p{
+  margin-left: 15px;
 }
 
 .title-text{
@@ -320,12 +314,12 @@ margin-top: 35px;
 
 /*responsive*/
 @media(max-width:800px){
-  .demo{
+  .flex-container{
     margin-left: 0px;
     width: 100%;
   }
-  .demo>img{
-    width: 60%;
+  .flex-container img{
+    width: 250px;
     height: 200px;
   }
   .recently-box{
@@ -349,8 +343,9 @@ margin-top: 35px;
   .intro-text>h1{
     font-size: 3.5rem;
   }
-  .demo{
-    height: 200px;
+  .flex-container img{
+    width: 200px;
+    height: 180px;
   }
 }
 @media(max-width:300px){
@@ -364,20 +359,4 @@ margin-top: 35px;
   .intro-text>h1{
     font-size: 2rem;
   }
-}
-
-.flex{
-  height: 215px;
-  margin: 5% 15%; /*reklam gelince değer değişecek*/
-  overflow: hidden;
-}
-.img>img{
-  width: 250px;
-
-}
-.flex h2{
-  margin-left: 35px;
-}
-.flex p{
-  margin-left: 15px;
 }
