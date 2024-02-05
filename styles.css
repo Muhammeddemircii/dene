@@ -306,9 +306,6 @@ margin-top: 35px;
   font-size: 1.1rem;
   font-family: 'Times New Roman', Times, serif;
 }
-.main>img{
-  object-fit: cover;
-}
 #space{
   margin-top: 2.5rem;
 }
