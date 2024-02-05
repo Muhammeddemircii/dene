@@ -238,6 +238,7 @@ margin-top: 35px;
   margin-left: 15px;
 }
 
+
 .title-text{
   width: 70%;
 }
@@ -305,6 +306,9 @@ margin-top: 35px;
   font-size: 1.1rem;
   font-family: 'Times New Roman', Times, serif;
 }
+.main>img{
+  object-fit: cover;
+}
 #space{
   margin-top: 2.5rem;
 }
@@ -315,6 +319,8 @@ margin-top: 35px;
 .flex{
   display: flex;
 }
+
+
 
 /*responsive*/
 @media(max-width:800px){
