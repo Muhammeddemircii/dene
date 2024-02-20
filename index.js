@@ -17,14 +17,17 @@ textElement.innerText = truncatedText + "...";*/
 
 /*kaydırmalı animasyonlar*/
   window.sr=new ScrollReveal()
-  sr.reveal(".header>img",{
+  sr.reveal(".header-img",{
     origin:"left",
     distance:"200px"
   })
-  sr.reveal(".header>h1",{
+  sr.reveal(".header-text",{
     origin:"top",
     distance:"225px"
 })
+
+
+
   sr.reveal(".container",{
     delay:400,
     rotate:{x:25, y:25, z:20}
